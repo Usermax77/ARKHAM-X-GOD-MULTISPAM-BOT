@@ -1032,7 +1032,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("Succesfully Joined")
+                await event.edit("KISKI GAND MARRU")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1081,7 +1081,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("Succesfully Joined")
+                await event.edit("PRIVATE WALE RANDI")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1127,7 +1127,7 @@ async def _(e):
         if len(e.text) > 7:
             bc = yukki[0]
             bc = int(bc)
-            text = "𝐎𝐊 𝐅𝐈𝐍𝐄 𝐌𝐀𝐍 𝐀𝐑𝐊𝐇𝐀𝐌𝐱𝐆𝐎𝐃 𝐁𝐎𝐓 𝐋𝐄𝐀𝐕𝐈𝐍𝐆....."
+            text = "BAHUT GAND MARLI NIKAL JATA HU....."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
@@ -1272,7 +1272,7 @@ async def spam(e):
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
-                    await asyncio.sleep(0.3)
+                    await asyncio.sleep(0.2)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -1522,7 +1522,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "OK SIR WE WILL FUCK THIS BITCH YOU ENJOY THE SHOW..."
+            text = "AB BOl KYA BOl RAHA THA..."
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1588,7 +1588,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "OK MAN WE WILL STOP NOW KALP GAYA HAI BECHARA..."
+            text = "CHAL MAFF KIYA GAND DEDE..."
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1754,7 +1754,7 @@ async def get_users(event):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "𝐀𝐑𝐊𝐇𝐀𝐌𝐱𝐆𝐎𝐃 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐎𝐏 🥵🔥!"
+        text = "SH4DOW GAND FADD MACHINE!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
@@ -1797,7 +1797,7 @@ async def ping(e):
 @boy.on(events.NewMessage(incoming=True, pattern=r"\*restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "2𝐌𝐈𝐍 𝐖𝐀𝐈𝐓 𝐏𝐑𝐎 𝐁𝐎𝐓 𝐑𝐄𝐁𝐎𝐎𝐓𝐈𝐍𝐆...\n\nNow Wait Till Piro Bot Is Rebooting..."
+        text = "RUK MUTH MARLO..."
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await idk.disconnect()
@@ -1969,12 +1969,12 @@ async def help(e):
         
 text = """
 
-💥💥 𝘼𝙍𝙆𝙃𝘼𝙈𝙭𝙂𝙊𝘿 𝙎𝙋𝘼𝙈 𝘽𝙊𝙏 💥💥💥
-💥 𝐁𝐎𝐓 𝐁𝐘 𝐘𝐀𝐒𝐇 𝐀𝐍𝐃 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 💥"""
+💥💥 ASHEEL BOT💥💥
+💥 BOT BY ALCOHOLIC PAMPA 💥"""
 
 print(text)
 print("")
-print("𝗔𝗥𝗞𝗛𝗔𝗠𝘅𝗚𝗢𝗗 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗥𝗘𝗔𝗗𝗬 𝗙𝗢𝗥 𝗨𝗦𝗘 𝗖𝗛𝗘𝗖𝗞 𝗕𝗬 𝗗𝗢𝗜𝗡𝗚 *ping")
+print("ping krke dekh le zinda huuu ya  nhi *ping")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
